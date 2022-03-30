@@ -23,14 +23,11 @@ font-size:40px;
 text-align:center;  
 }
 .active{
-    overflow:auto;
+    
         transform:scale(1);
         
                 transition:all 5s;
-                display:flex;
-                flex-flow:column wrap;
-                justify-content:center;
-                align-items:center;
+                
            background-image: repeating-linear-gradient(45deg,#aaaaaa 20%,#ababab 15%,#cdcdcd);
         border-radius:90px;
         box-shadow:4px 4px 5px rgba(240,240,240,.3),
@@ -142,6 +139,7 @@ font-size:10em;
     height: auto;
 }
 #level{
-    height:3em;
-    width:8em;
+    height:6em;
+    width:16em;
+   font-size:4em;
 }
