@@ -200,7 +200,7 @@ alert(randomarr());*/
       figure.classList.add("fig");
       figure.classList.remove("active");
       figure.innerHTML = "";
-      console.log(eachfigure.src);
+      
     }, 3012);
   }
   function callNTimes(func, num, delay) {
@@ -253,4 +253,9 @@ Faces are shown with their names as a caption
 Depending on the level you choose at least three images is displayed 
 At the end of it a grid of 20 images is shown and you will have to pick which one of them is a.....
 😁😄😃😀
-choose the level of your choice`)
+choose the level of your choice
+
+
+
+
+`)
