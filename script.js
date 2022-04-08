@@ -200,7 +200,7 @@ alert(randomarr());*/
       figure.classList.add("fig");
       figure.classList.remove("active");
       figure.innerHTML = "";
-      console.log(eachfigure.src);
+      
     }, 3012);
   }
   function callNTimes(func, num, delay) {
