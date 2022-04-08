@@ -59,7 +59,7 @@ window.onload = () => {
       function validateanswer() {
         var wol;
         //  let imgsrc=q.src.slice(30,len)
-        var qsrc = "https://rememberfaces.netlify.app/" + question_.src;
+        var qsrc = "https://rememberfacesR.netlify.app/" + question_.src;
         if (q.src == qsrc) {
           wol = "Cool,You won";
           alert("yh");
@@ -222,7 +222,7 @@ alert(randomarr());*/
     const myInterval = setInterval(() => {
       func();
       count++;
-      console.log([count, num, count === num]);
+      
       clear();
     }, delay);
   }
