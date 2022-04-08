@@ -215,14 +215,14 @@ alert(randomarr());*/
     const clear = () => {
       if (count >= num) {
         clearInterval(myInterval);
-        console.log("done");
+        
       }
     };
 
     const myInterval = setInterval(() => {
       func();
       count++;
-      console.log([count, num, count === num]);
+     
       clear();
     }, delay);
   }
