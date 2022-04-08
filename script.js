@@ -59,7 +59,7 @@ window.onload = () => {
       function validateanswer() {
         var wol;
         //  let imgsrc=q.src.slice(30,len)
-        var qsrc = "https://rememberfaces.netlify.app/" + question_.src;
+        var qsrc = "https://rememberfacesr.netlify.app/" + question_.src;
         if (q.src == qsrc) {
           wol = "Cool,You won";
           alert("yh");
@@ -200,7 +200,7 @@ alert(randomarr());*/
       figure.classList.add("fig");
       figure.classList.remove("active");
       figure.innerHTML = "";
-      console.log(eachfigure.src);
+      
     }, 3012);
   }
   function callNTimes(func, num, delay) {
@@ -222,7 +222,7 @@ alert(randomarr());*/
     const myInterval = setInterval(() => {
       func();
       count++;
-      console.log([count, num, count === num]);
+      
       clear();
     }, delay);
   }
@@ -253,4 +253,9 @@ Faces are shown with their names as a caption
 Depending on the level you choose at least three images is displayed 
 At the end of it a grid of 20 images is shown and you will have to pick which one of them is a.....
 😁😄😃😀
-choose the level of your choice`)
+choose the level of your choice
+
+
+
+
+`)
